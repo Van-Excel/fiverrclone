@@ -1,6 +1,9 @@
 .navbar{
     display: flex;
     justify-content: center;
+    background-color: green;
+    
+    color: white;
     .container{
         display: flex;
         justify-content: space-between;
@@ -12,18 +15,32 @@
             font-weight: bold;
             .text{}
             .dot{
-                color: green;
+                color: rgb(48, 65, 48);
             }
         }
         .links{
             display: flex;
             gap: 24px;
             align-items: baseline;
+            font-weight: 500px;
+            font-family: 'Montserrat', sans-serif;
 
             .btn-join{
+                color: white;
+                padding:10px 20px ;
                 width: 80px;
-                border: 2px solid;
+                border:1px solid white;
+               
                 border-radius: 5px;
+                cursor: pointer;
+                background-color: transparent;
+                &:hover{
+                    background-color:green;
+                    border-color: green;
+
+
+                }
+
             }
         }
     }

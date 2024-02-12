@@ -3,6 +3,7 @@ import './Navbar.scss'
 
 
 
+
 export default function Navbar() {
   return (
     <div className='navbar'> 
@@ -14,12 +15,15 @@ export default function Navbar() {
 
         </div>
         <div className="links">
-        <span>Fiverr Business</span>
+            <span>Fiverr Business</span>
+        
         <span>Explore</span>
         <span>English</span>
         <span>Become a seller</span>
         <span>Sign in</span>
         <button className='btn-join'>Join</button>
+
+        
 
         </div>
     </div>
