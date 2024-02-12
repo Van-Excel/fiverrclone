@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        width: 1400px;
+        
+        padding: 20px 0px;
+        .logo{ 
+            font-size: 34px;
+            font-weight: bold;
+            .text{}
+            .dot{
+                color: green;
+            }
+        }
+        .links{
+            display: flex;
+            gap: 24px;
+            align-items: baseline;
+
+            .btn-join{
+                width: 80px;
+                border: 2px solid;
+                border-radius: 5px;
+            }
+        }
+    }
+}
